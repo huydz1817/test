@@ -7,10 +7,10 @@ import datetime
 import os
 
 # insert your Telegram bot token here
-bot = telebot.TeleBot('8385872959:AAGJbMkOejYsveH4ZOtab3gbFV0lgMmEflI')
+bot = telebot.TeleBot('8279142566:AAE7719-93KPDHFXc0q8Y1eMCKJ_FUOpk0E')
 
 # Admin user IDs
-admin_id = ["6454123620"]
+admin_id = ["6132441793"]
 
 # File to store allowed user IDs
 USER_FILE = "users.txt"
@@ -373,3 +373,4 @@ def broadcast_message(message):
 
 
 bot.polling()
+
